@@ -1,0 +1,67 @@
+.container div {
+  width: 100%;
+  height: 40px;
+  float: left; }
+.container > div {
+  border: 2px dotted grey; }
+.container #house {
+  background: red;
+  border: solid;
+  color: sienna; }
+  .container #house div .favorite {
+    background-color: black;
+    color: blanchedalmond; }
+  .container #house + div {
+    border: 1px solid pink; }
+.container #house-shower {
+  background: rosybrown; }
+.container #house-dogs {
+  background: sandybrown; }
+.container #house-cats {
+  background: seagreen; }
+.container #mazda {
+  background: skyblue; }
+.container #porche {
+  background: slateblue; }
+.container #ferreri {
+  background: sandybrown; }
+.container #kawasaki {
+  background: red; }
+
+.container1 #mazda {
+  width: 100%;
+  border: solid;
+  background: burlywood; }
+  .container1 #mazda .maz {
+    border: solid;
+    float: left;
+    padding: 200px 100px; }
+.container1 #porche {
+  float: right;
+  border: solid;
+  padding: 200px 100px; }
+.container1 #ferrari {
+  width: 100%;
+  border: solid;
+  background: orange; }
+  .container1 #ferrari .fer {
+    border: solid;
+    float: left;
+    padding: 200px 200px; }
+
+.caja #libro1 {
+  width: 100%;
+  background: palevioletred;
+  border: solid; }
+  .caja #libro1 .hojas {
+    float: left;
+    background: grey;
+    border: solid;
+    color: honeydew; }
+.caja #libro2 {
+  background: indigo;
+  border: solid;
+  color: lawngreen;
+  height: 12px; }
+
+/*# sourceMappingURL=index.css.map */
